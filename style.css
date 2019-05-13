@@ -1,0 +1,474 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: 'KorolevLight';
+	src: url('oca.fonts/KorolevLight.woff') format('woff');
+}
+body{
+	background:url("assets/modelofundo.png") no-repeat;
+	background-size: cover;
+	/*background-position: center;*/
+	background-attachment: scroll;
+	overflow-x: hidden;
+	/*min-height: 100vh;*/
+}
+.main{
+	width: 100%;
+}
+.primeirotitulo_main_body{
+	font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 50px; 
+    color: white;
+    text-align: center;
+    margin-top: 29vw;
+    position: relative;
+    z-index: 10;
+}
+.h2_conteudo{	
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    /*left: 15vw;*/
+    bottom: -5px;
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+    z-index: 10;
+}
+.h2_atividades{
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 15vw;
+    z-index: 10;
+}
+.menu{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	right: 12%;
+	display: flex;
+	justify-content: flex-end;	
+	align-items: center;
+	height: 35vh;
+	z-index: 99;
+}
+.logo{
+	width: 18vw;
+	margin-top: -1vw;	
+	margin-left: 2vw;
+}
+.menu_link{
+	text-decoration:none;
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    font-size: 1vw;
+    color: white;
+    min-width: 6.5vw !important;
+	height: 6.5vw;
+	border-radius: 50%;
+	background: linear-gradient(#FB26CA, #FFF82A);
+	margin-left: 2.6vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.conteudo-primeira-section_main_body{
+	height: 120vh;
+	display: flex;
+	justify-content: center;
+}
+#conteudo{
+	height: 60vh;
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
+}
+#paragrafo_div_main_body{
+	font-family: 'KorolevLight';
+	color: white;
+	height: 400px;
+	width: 400px;
+	font-size: 23px;
+	margin-right: 9.5vw;
+}
+.imagem_conteudo{
+	width: 500px;
+	height: 320px;
+	display: flex;
+	position: relative;
+	margin-right: 5vw;
+	z-index: 10;
+}
+.seta{
+	height: 30px;
+	width: 30px;
+}
+#direcionamento-seta{
+	position: absolute;
+	right: 580px;
+}
+.menu_atividades{
+	text-decoration:none;
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    color: white;
+}
+#imagem_atividades{
+	display: flex;
+	position: absolute;
+	height: 37%;
+	left: 9%;
+	margin-top: -23%;
+	border-radius: 50%;	
+	z-index: 15;
+}
+.p_atividades{
+	display: flex;
+	position:relative;
+	justify-content: center;
+	margin-top: -2vw;
+	z-index: 10;
+}
+.conteudo_icone{
+	width: 8vw;
+	height: 6vw;
+	margin: 3.5vw;
+}
+.icones{
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+	z-index: 10;
+}
+
+
+.contato{
+	height: 70vh;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	margin-top: 15vw;
+	position: relative;
+	z-index: 15;
+}
+.imagem_contato{
+	display: flex;
+	position: absolute;
+	margin-left: 9.5vw;
+	margin-top: 12.5vw;
+	width: 380px;
+	height: 380px;
+	border-radius: 50%;
+	z-index: 15;
+}
+#h2_contato{
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    font-size: 40px;
+    color: white;
+   	text-align: center;
+   	padding-left: 20px;
+    position: relative;
+	z-index: 15;
+}
+.p_contato--desktop{
+	font-family: 'KorolevLight';
+	color: white;
+	font-size: 21px;
+	width: 750px;
+	margin-top: 3vw;
+	margin-left: 27vw;
+	/*height: 350px;*/
+	position: relative;
+	z-index: 15;
+}
+.p_telefone{
+	font-family: 'KorolevLight';
+	font-weight: bold;
+	color: yellow;
+	font-size: 25px;
+	margin-top: 3vw;
+	width: 400px;
+	margin-left: 46vw;
+	position: relative;
+	z-index: 15;
+}
+.p_email{
+	font-family: 'KorolevLight';
+	font-weight: bold;
+	color: yellow;
+	font-size: 25px;
+	margin-top: 1vw;
+	width: 400px;
+	margin-left: 46vw;
+	position: relative;
+	z-index: 10;
+}
+.logo_vainaweb{
+	width: 5vw;
+	height: 5vw;	
+}
+.container_bolaFooter{
+	position: absolute;
+	top: 258%;
+	left: 20%;
+	height: 158vh;
+	overflow: hidden;
+}
+.bola_footer{
+	width: 100vw;
+	height: 100vw;
+	border-radius: 50%;
+	background: linear-gradient(45deg, #FB26CA, #2D11BC);
+	opacity: 0.8; 	
+}
+.primeirabola_section_main_body{
+	position: absolute;
+	top: -1.5vw;
+	right: -12vw;
+	margin-left: 10vw;
+	width: 33vw;
+	height: 33vw;
+	border-radius: 50%;
+	background: linear-gradient(to left, #00FFCB, #FB26CA);
+	opacity: 0.8;
+}
+.segundabola_section_main_body{
+	position: absolute;
+	top: 20%;
+	left: -10%;
+	width: 21vw;
+	height: 21vw;
+	border-radius: 50%;
+	background: linear-gradient(to top, #FB26CA, #2D11BC);
+	opacity:.8;
+	z-index: 1;
+}
+.terceirabola_section_main_body{
+	position: absolute;
+	top: 37%;
+	margin-left: -36%;
+	width: 38vw;
+	height: 36vw;
+	border-radius: 50%;
+	background: linear-gradient(to left, #00FFCB, #FB26CA);
+	opacity: 0.7;
+}
+.quartabola_section_main_body{
+	position: absolute;
+	top: 27vw;
+	right: -10vw;
+	width: 18vw;
+	height: 18vw;
+	border-radius: 50%;
+	background: linear-gradient(to left, #FFF82A, #FB26CA);
+	opacity: 0.8;
+	z-index: 1;
+}
+.bola_h2{
+	position: absolute;
+	top: 65%;
+	right: -8vw;
+	width: 59vw;
+	height: 69vw;
+	border-radius: 50%;
+	background: linear-gradient(to right, #2D11BC, #B124D2);
+	opacity: 0.8;
+}
+.bola_conteudo {
+	position: absolute;
+	top: 170%;
+	right: -24vw;
+	width: 66vw;
+	height: 66vw;
+	border-radius: 50%;
+	background: linear-gradient(to right, #00FFCB, #B124D2);
+	opacity: 0.8;
+}
+.bola_atividades {
+	position: absolute;
+	top: 208%;
+	left: -3vw;
+	width: 65vw;
+	height: 60vw;
+	border-radius: 50%;
+	background: linear-gradient(to bottom, #FFF82A, #FB26CA);
+	opacity: 0.9;
+	z-index: 2; 	
+}
+.menu_hamburguer{
+	margin: 2px;
+	height: 5px;
+	width: 30px;
+	background: #00FFCB;
+	/*position: relative;*/
+}
+.listras{
+	display: none;
+	position: relative;
+	right: -60px;
+	top: -60px;
+}
+@media (max-width: 1024px){
+	.menu_hamburguer{
+		margin: 2px;
+		height: 5px;
+		cursor: pointer;
+	}
+	.listras{
+		display: block;
+		right: -60%;
+	}
+	#body{
+		width: 100%;
+	}
+	.main{
+		width: 100%;
+	}
+	.menu{
+		width: 100%;
+		justify-content: center;
+		right: 5%;
+		position: absolute;			
+	}
+	.menu_link{
+		min-width: 350px;
+		display: none;	
+	}
+	.logo{
+		width: 30%;	
+		/*position: static;	*/
+	}
+	.h1_principal{
+		font-size: 30px;
+		margin-top: 100%;
+		margin-left: 4%; 
+		position: relative;
+		text-align: center;
+		min-width: 290px;
+	}
+	.h2_conteudo{
+		margin-bottom: 20%;
+		margin-left: 10%;
+	}
+	.section_conteudo3{
+		padding-bottom: 50px;
+	}
+
+    .section_conteudo{
+		text-align: center;
+		width: 100%;
+	}
+	.imagem_conteudo{
+		width: 85vw;
+    	height: auto;
+    	margin-top: auto;
+	}
+	.icones{
+		height: 40vh;
+		width: 95%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin: auto;
+	}
+	.conteudo_icone{
+		min-width: 17vw;
+		min-height: 16vw;
+		/*margin: 3.5vw;*/
+	}
+	.conteudo{
+		height: 65vh;
+    	display: flex;
+    	position: relative;
+    	justify-content: center;
+    	align-items: flex-start;
+    	margin-left: 10%;
+	}
+	.p_conteudo{
+		width: 90%;
+    	position: absolute;
+    	margin-top: -10%;
+    	margin-left: -5%;
+	}
+	.bola_conteudo{
+		left: 0;
+	}
+	.h2_atividades{
+		margin-top: 75%;
+		margin-bottom: 10%;
+	}
+	.bola_atividades{
+		display: none;
+	}
+	#imagem_atividades{
+		display: none;
+	}
+	.contato{
+		height: 30vh;
+		background:#B124D2;
+		margin-top: auto;
+		padding-top: 20px;
+	}
+	.p_contato{
+		width: 90%;
+    }
+    .h2_contato{
+    	font-size: 30px;
+    	text-align: center;
+    }
+	.p_contato--desktop{
+		display: none;
+	}
+	.p_email , .p_telefone{
+		width: 100%;
+		margin-left: 0;
+		font-size: 20px;
+		text-align: center;
+		color: white;
+		padding-top: 7px;
+	}
+	.p_width{
+		width: 100%
+		margin-left:0;
+	}
+	.imagem_contato{
+		display: none;
+	}
+	.primeirabola_section_main_body{
+		display: none;
+	}
+	.segundabola_section_main_bady{
+		display: none;
+	}
+	.terceirabola_section_main_body{
+		display: none;
+	}
+	
+	.quartabola_section_main_body{
+		display: none;
+	}
+	
+	.bola_h2{
+		display: none;
+	}
+	.bola_conteudo{
+		display: none;
+	}
+	.bola_footer{
+		width: 100%;
+	}
+}
