@@ -279,6 +279,15 @@ body{
 	opacity: 0.8;
 	z-index: 1;
 }
+.footer{
+	height: 10vh;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 10;
 .bola_h2{
 	position: absolute;
 	top: 65%;
