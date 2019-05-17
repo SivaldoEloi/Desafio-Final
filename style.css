@@ -154,8 +154,38 @@ body{
 	height: 15vh;
 	z-index: 10;
 }
+.section_conteudo4{
 
-
+}
+.h2_parceiros{
+	font-family: 'Comfortaa';
+    font-weight: bold; 
+    font-size: 40px;
+    color: white;
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 18vw;
+    margin-top: 20vw;
+   	z-index: 10;
+}
+.icone_parceiros{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 12vw;
+	position: relative;
+	z-index: 10;
+	/*margin-left: 10vw;*/
+}
+.imagem_parceiros{
+	width: 9vw;
+	height: 6.5vw;	
+	margin-right: 15vw;
+	margin-left: -12vw;
+	position: relative;
+	z-index: 10;
+}
 .contato{
 	height: 70vh;
 	display: flex;
@@ -185,7 +215,7 @@ body{
     position: relative;
 	z-index: 15;
 }
-.p_contato--desktop{
+.p_contato{
 	font-family: 'KorolevLight';
 	color: white;
 	font-size: 21px;
@@ -196,7 +226,10 @@ body{
 	position: relative;
 	z-index: 15;
 }
-.p_telefone{
+.p_contato--mobile{
+	display: none;
+}
+.p_tel{
 	font-family: 'KorolevLight';
 	font-weight: bold;
 	color: yellow;
@@ -235,6 +268,16 @@ body{
 	border-radius: 50%;
 	background: linear-gradient(45deg, #FB26CA, #2D11BC);
 	opacity: 0.8; 	
+}
+.footer{
+	height: 10vh;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 10;
 }
 .primeirabola_section_main_body{
 	position: absolute;
@@ -279,15 +322,6 @@ body{
 	opacity: 0.8;
 	z-index: 1;
 }
-.footer{
-	height: 10vh;
-	width: 100%;
-	background-color: white;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	z-index: 10;
 .bola_h2{
 	position: absolute;
 	top: 65%;
@@ -370,6 +404,10 @@ body{
 		text-align: center;
 		min-width: 290px;
 	}
+	.h2_parceiros{
+		margin: 0;
+		font-size: 30px;
+	}
 	.h2_conteudo{
 		margin-bottom: 20%;
 		margin-left: 10%;
@@ -377,7 +415,22 @@ body{
 	.section_conteudo3{
 		padding-bottom: 50px;
 	}
-
+	.section_conteudo4{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 65px;
+		background:#B124D2;
+	}
+	.icone_parceiros{
+		margin-top: 50%;
+		flex-direction: column;
+		margin-left: 30%;
+	}
+	.imagem_parceiros{
+		width: 31vw;
+    	height: 30vw;
+    }
     .section_conteudo{
 		text-align: center;
 		width: 100%;
@@ -439,10 +492,17 @@ body{
     	font-size: 30px;
     	text-align: center;
     }
+	.p_contato--mobile{
+		display: block;
+		margin-top: auto;
+    	margin-left: auto; 
+     	height: auto; 
+     	padding-bottom: 50px;
+   	}
 	.p_contato--desktop{
 		display: none;
 	}
-	.p_email , .p_telefone{
+	.p_email , .p_tel{
 		width: 100%;
 		margin-left: 0;
 		font-size: 20px;
@@ -455,6 +515,9 @@ body{
 		margin-left:0;
 	}
 	.imagem_contato{
+		display: none;
+	}
+	.footer{
 		display: none;
 	}
 	.primeirabola_section_main_body{
